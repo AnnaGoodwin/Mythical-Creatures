@@ -22,7 +22,7 @@ describe('Wizard', function() {
     assert.equal(wizard.bearded, false)
   });
 
-  it.skip('should have root powers', function() {
+  it('should have root powers', function() {
     var wizard = new Wizard({name: 'Jhun', bearded: false});
     assert.equal(wizard.incantation('chown lumos'), 'CHOWN LUMOS');
   });
